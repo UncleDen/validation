@@ -1,0 +1,188 @@
+body {
+    margin: 20px;
+}
+
+@media (min-width: 480px){
+  form {
+    width: 100% !important; 
+  }
+  body {
+    margin: 0 !important;
+    }
+  .form-content ul .textbox {
+     width: 100%;
+    }
+  .form-content ul {
+     padding: 20px !important;
+     width: 100%;
+    }
+  .form-content ul p .label {
+     display: flex;
+     justify-content: center;
+    }
+  .form-content ul .input {
+    text-align: center !important;
+   }
+  .input {
+      margin: 29px 0px 29px 0 !important; 
+  }
+  .fa-check {
+    float: right;
+    padding-right: 7px;
+    position: absolute;
+  }
+}
+
+@media (min-width: 768px) {
+  form {
+    width: 100% !important; 
+  }
+  body {
+    margin: 0 !important;
+    }
+  .form-content ul .textbox {
+     width: 100%;
+    }
+  .form-content ul {
+     padding: 20px !important;
+     width: 100%;
+    }
+  .form-content ul p .label {
+     display: flex;
+     justify-content: center;
+    }
+  .form-content ul .input {
+    text-align: center !important;
+   }
+  .input {
+      margin: 29px 0px 29px 0 !important; 
+  }
+  .fa-check {
+    float: right;
+    padding-right: 7px;
+    position: absolute;
+  }
+}
+
+@media (min-width: 1024px) { 
+  form {
+    width: 400px !important; 
+  }
+  body {
+    margin: 20px !important;
+  }
+  .form-content ul .input {
+    text-align: start !important;
+  }
+  .input {
+    margin: 12px 0px 12px 0 !important; 
+  } 
+  .fa-check {
+    float: right;
+    padding-right: 7px;
+    position: relative;
+  }
+  .form-content ul .textbox {
+     width: 50%;
+    }
+  .form-content ul {
+     padding: 0 !important;
+     width: auto;
+    }
+}
+
+form {
+    height: auto;
+    border: 1px solid #e4e4e4;
+    width: 100%;
+    background: #fff;
+    list-style: none;
+    margin: 0 auto;
+    .title {
+        text-align: center;
+        font-size: 24px;
+        color: #000;
+        margin: 0;
+        padding: 10px;
+    }
+    .form-content {
+        display: flex;
+        justify-content: center;
+    }
+    .button {
+        display: flex;
+        justify-content: center;
+        margin: 0 0 10px;
+        border-radius: 3px;
+    }
+    #send {
+        background: linear-gradient(to top, #ff7c00, #ffa600);
+        border: 1px solid #fd8336;
+        width: 121px;
+        height: 32px;
+        color: #fff;
+        font-size: 15px;
+        font-weight: 600;
+        &:hover{background: #ffa632;}
+        &:active{ background: linear-gradient(to top, #ffa600, #ff7c00);}
+    }
+}
+
+.form-content ul {
+    list-style: none;
+    padding: 0;
+    .error-name, .error-email, .error-password, .error-cvv {
+    background: #ff6a6a;
+    color: white;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 4px;
+    width: 100%;
+    height: 50px; 
+    line-height: 51px;
+    }
+   #cvv-info { 
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+    background-image: url(../img/cvv-1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #ff9e00;
+    position: absolute;
+    opacity: 0.9;
+    padding: 4px;
+    }
+   .input {
+    display: block;
+   .label {      
+       line-height: 21px;
+       padding-right: 10px;
+       padding-bottom: 10px;
+       font-weight: 100;
+       letter-spacing: 1px; 
+    .question{
+        line-height: 21px;
+        padding: 0 0 0 4px;
+        width: 21px;
+       }
+     } 
+    }
+   .textbox {
+     margin: 0;
+     float: right;  
+    }
+}
+
+.cvv-info-1 { 
+    position: absolute; 
+}
+.cvv-info-2 {     
+    width: 100%;
+    position: relative;
+}
+
+.fa-check {
+    color: #24fd24;
+}

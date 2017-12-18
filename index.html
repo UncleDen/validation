@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Test work</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/app.js"></script>
+  </head>
+  <body>
+    <form action="#" method="POST" id="regForm">
+      <div class="title">Register</div>
+      <div class="form-content">
+        <ul>
+          <div class="input">
+            <label class="label">Name</label>
+            <input class="textbox empty" type="text" name="name" id="name"><i class="fa fa-check" id="check-name" style="opacity:0;"></i>
+          </div>
+          <div class="error-name" style="display:none;background:#ff6a6a;"></div>
+          <div class="input">
+            <label class="label">Email</label>
+            <input class="textbox empty" type="text" name="email" id="email"><i class="fa fa-check" id="check-email" style="opacity:0;"></i>
+          </div>
+          <div class="error-email" style="display:none;background:#ff6a6a;"></div>
+          <div class="input">
+            <label class="label">Password</label>
+            <input class="textbox empty" type="password" name="password" id="password"><i class="fa fa-check" id="check-password" style="opacity:0;"></i>
+          </div>
+          <div class="error-password" style="display:none;background:#ff6a6a;"></div>
+          <div class="input">
+            <label class="label">CVV<i class="question fa fa-question-circle"><i id="cvv-info" style="display:none;"></i></i></label>
+            <input class="textbox empty" type="text" name="cvv" id="cvv"><i class="fa fa-check" id="check-cvv" style="opacity:0;"></i>
+          </div>
+          <div class="error-cvv" style="display:none;background:#ff6a6a;"></div>
+        </ul>
+      </div>
+      <div class="button"> 
+        <input type="button" id="send" value="submit">
+      </div>
+    </form>
+  </body>
+</html>
